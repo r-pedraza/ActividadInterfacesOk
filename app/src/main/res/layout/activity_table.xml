@@ -1,0 +1,69 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.raulpedraza.actividadinterfaces.Table">
+
+
+    <TableRow
+        android:id="@+id/tableSeccion1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <Button
+            android:id="@+id/button1Seccion1Table"
+            android:text="@string/buttonTable"/>
+        <Button
+            android:id="@+id/button2Seccion1Table"
+            android:text="@string/buttonTable"
+            />
+        <Button
+            android:id="@+id/button3Seccion1Table"
+            android:text="@string/buttonTable"/>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableSeccion2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_span="3"
+            android:id="@+id/button1Seccion2Table"
+            android:text="@string/buttonTable"/>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableSeccion3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="texto que se extiende exactamene a lo ancho de 3 columnas"
+            android:layout_span="3"/>
+
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:id="@+id/button1Seccion4Table"
+            android:text="@string/buttonTable"/>
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:id="@+id/button1Seccion5Table"
+            android:drawable="@drawable/man_small"
+            android:layout_span="2"
+            />
+        <Button
+            android:id="@+id/button2Seccion5Table"
+
+            android:drawable="@drawable/man_small"/>
+    </TableRow>
+
+</TableLayout>

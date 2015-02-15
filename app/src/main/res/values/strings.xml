@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ActividadInterfaces</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_frame">Frame</string>
+    <string name="title_activity_relative">Relative</string>
+    <string name="title_activity_linear_vertical">LinearVertical</string>
+    <string name="title_activity_scrollview">Scrollview</string>
+    <string name="title_activity_table">Table</string>
+    <string name="title_activity_grid">Grid</string>
+    <string name="buttonFrame">Print Picture</string>
+    <string name="labelNameRelative">Nombre</string>
+    <string name="hintLabelNameRelative">Introduce tu nombre</string>
+    <string name="textButtonRelative">Go!</string>
+    <string name="check1Scroll">CheckBox</string>
+    <string name="check2Scroll">CheckBox</string>
+    <string name="check3Scroll">CheckBox</string>
+    <string name="button1Scroll">On</string>
+    <string name="buttonTable">Button</string>
+    <string name="button4Grid">the large one</string>
+    <string name="buttonGrid">Button</string>
+
+</resources>

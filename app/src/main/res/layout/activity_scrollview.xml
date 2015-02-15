@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="insideInset">
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+
+           <CheckBox
+               android:text="@string/check1Scroll"
+               android:id="@+id/checkBox1Scroll"
+               style="@style/elementosScroll"/>
+           <CheckBox
+               style="@style/elementosScroll"
+               android:text="@string/check1Scroll"
+               android:id="@+id/checkBox2Scroll"
+             />
+           <CheckBox
+               style="@style/elementosScroll"
+               android:text="@string/check3Scroll"
+               android:id="@+id/checkBox3Scroll"
+              />
+
+           <Button
+               style="@style/elementosScroll"
+               android:text="New Button"
+               android:id="@+id/button2"
+              />
+
+           <ImageView
+               android:id="@+id/imageView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/man"
+               android:scaleType="centerInside"
+               android:layout_gravity="center"
+               android:layout_marginTop="20dp"
+               />
+           <CheckBox
+               style="@style/elementosScroll"
+               android:text="@string/check1Scroll"
+               android:id="@+id/checkBox4Scroll"
+               />
+           <CheckBox
+               style="@style/elementosScroll"
+               android:text="@string/check2Scroll"
+               android:id="@+id/checkBox5Scroll"
+               />
+           <CheckBox
+               style="@style/elementosScroll"
+               android:text="@string/check3Scroll"
+               android:id="@+id/checkBox6Scroll"
+               />
+
+           <Button
+               style="@style/elementosScroll"
+               android:text="@string/button1Scroll"
+               android:id="@+id/buttonScroll2"
+               />
+
+           <ImageView
+               style="@style/elementosScroll"
+               android:id="@+id/imageViewScroll2"
+               android:src="@drawable/man"
+               android:scaleType="centerInside"
+               android:layout_gravity="center"
+
+               />
+
+
+
+       </LinearLayout>
+
+</ScrollView>
