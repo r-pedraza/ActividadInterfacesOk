@@ -2,18 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/raulpedraza/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/raulpedraza/AndroidStudioProjects/ActividadInterfaces/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-50f3f0789ae3ce3b52f6259d4778b3c111799aa9.jar" />
-    </item>
-    <item
-        jar="/Users/raulpedraza/AndroidStudioProjects/ActividadInterfaces/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jar="/Users/raulpedraza/Documents/AndroidStudioProjects/ActividadInterfaces/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/raulpedraza/AndroidStudioProjects/ActividadInterfaces/app/build/intermediates/pre-dexed/debug/classes-305fcf12ba8584ac2e3c9a479adc8818a671acdf.jar" />
+        <dex dex="/Users/raulpedraza/Documents/AndroidStudioProjects/ActividadInterfaces/app/build/intermediates/pre-dexed/debug/classes-3b990e758e4dd1b53bd5d8c3c4d36a5ac0b3fe94.jar" />
     </item>
     <item
         jar="/Users/raulpedraza/AndroidStudioProjects/ActividadInterfaces/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
@@ -28,6 +21,34 @@
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
         <dex dex="/Users/raulpedraza/AndroidStudioProjects/ActividadInterfaces/app/build/intermediates/pre-dexed/debug/classes-30229a8ec737840b1067ef874066e9c7f912cfc9.jar" />
+    </item>
+    <item
+        jar="/Users/raulpedraza/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/raulpedraza/AndroidStudioProjects/ActividadInterfaces/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-50f3f0789ae3ce3b52f6259d4778b3c111799aa9.jar" />
+    </item>
+    <item
+        jar="/Users/raulpedraza/AndroidStudioProjects/ActividadInterfaces/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/raulpedraza/AndroidStudioProjects/ActividadInterfaces/app/build/intermediates/pre-dexed/debug/classes-305fcf12ba8584ac2e3c9a479adc8818a671acdf.jar" />
+    </item>
+    <item
+        jar="/Users/raulpedraza/Documents/AndroidStudioProjects/ActividadInterfaces/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/raulpedraza/Documents/AndroidStudioProjects/ActividadInterfaces/app/build/intermediates/pre-dexed/debug/classes-ab0af9981ea762bd0302508bd72b986777537dae.jar" />
+    </item>
+    <item
+        jar="/Users/raulpedraza/Documents/AndroidStudioProjects/ActividadInterfaces/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/raulpedraza/Documents/AndroidStudioProjects/ActividadInterfaces/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-e0e175a73b5eca4f7f45930cdb7f5717cb66dcb6.jar" />
     </item>
 
 </items>
