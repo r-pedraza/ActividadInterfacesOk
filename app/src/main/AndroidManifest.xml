@@ -18,27 +18,38 @@
         </activity>
         <activity
             android:name=".Frame"
-            android:label="@string/title_activity_frame" >
+            android:label="@string/title_activity_frame"
+            android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".Relative"
-            android:label="@string/title_activity_relative" >
+            android:label="@string/title_activity_relative"
+            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".LinearVertical"
-            android:label="@string/title_activity_linear_vertical" >
+            android:label="@string/title_activity_linear_vertical"
+            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".Scrollview"
-            android:label="@string/title_activity_scrollview" >
+            android:label="@string/title_activity_scrollview"
+            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".Table"
-            android:label="@string/title_activity_table" >
+            android:label="@string/title_activity_table"
+            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".Grid"
-            android:label="@string/title_activity_grid" >
+            android:label="@string/title_activity_grid"
+            android:parentActivityName=".MainActivity">
+            >
         </activity>
     </application>
 

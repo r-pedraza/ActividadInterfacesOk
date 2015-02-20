@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.GridView;
 import android.widget.ListView;
 
 
@@ -16,7 +17,7 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
 
     private static final String TAG =MainActivity.class.getName() ;
     String lista[];
-    ListView listView;
+    GridView gridView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,9 +26,10 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
         lista= new String[]{"Frame","Relative","Linear vertical","Scrollview","Table","Grid"};
 
         ArrayAdapter<String>adapter=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,lista);
-        listView=(ListView)findViewById(R.id.listView);
-        listView.setAdapter(adapter);
-        listView.setOnItemClickListener(this);
+        gridView=(GridView)findViewById(R.id.gridView);
+        gridView.setAdapter(adapter);
+        gridView.setNumColumns(2);
+        gridView.setOnItemClickListener(this);
 
 
     }
@@ -63,38 +65,34 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
 
         switch (item){
             case ("Frame"): {
+                startActivity(new Intent(this,Frame.class));
                 Log.d(TAG,"Opcion 1");
-                Intent intent1=new Intent(this,Frame.class);
-                startActivity(intent1);
+
 
                 break;
             }
                 case ("Relative"): {
-                    Intent intent2=new Intent(this,Relative.class);
-                    startActivity(intent2);
+                    startActivity(new Intent(this,Relative.class));
                     Log.d(TAG,"Opcion 2");
 
                     break;
                 }
                     case ("Linear vertical"): {
-                        Intent intent3=new Intent(this,LinearVertical.class);
-                        startActivity(intent3);
+                        startActivity(new Intent(this,LinearVertical.class));
                         Log.d(TAG,"Opcion 3");
 
 
                         break;
                     }
                         case ("Scrollview"): {
-                            Intent intent4=new Intent(this,Scrollview.class);
-                            startActivity(intent4);
+                            startActivity(new Intent(this,Scrollview.class));
                             Log.d(TAG,"Opcion 4");
 
 
                             break;
                         }
                             case ("Table"): {
-                                Intent intent5=new Intent(this,Table.class);
-                                startActivity(intent5);
+                                startActivity(new Intent(this,Table.class));
                                 Log.d(TAG,"Opcion 5");
 
 
@@ -102,10 +100,8 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
                             }
                                 case ("Grid"): {
 
-                                    Intent intent6=new Intent(this,Grid.class);
-                                    startActivity(intent6);
+                                    startActivity(new Intent(this,Grid.class));
                                     Log.d(TAG,"Opcion 6");
-
 
                                     break;
                                 }
